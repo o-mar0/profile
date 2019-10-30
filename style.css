@@ -1,0 +1,134 @@
+
+/*colors and fonts*/
+
+/* the body attributes will apply to what's in the body unless stated differently*/
+body {
+  background: #F7F9FC;
+  color: #575F7D; /* note the color is stated at p as well, just for understansing purposes */
+  font-family: 'Lora', serif;
+  font-size: 17px;
+  font-weight: lighter;
+}
+
+h1, h2{
+font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 32px;
+  color: #575F7D;
+}
+
+h2 {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  color: #f35588;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+/*customising*/
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.card-white {
+  background: white;
+  margin: 20px 0px;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0px 10px 50px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.card-white img {
+  border-radius: 50%;
+}
+
+.btn-blue {
+  background-color: #6B72E1;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 8px;
+  font
+}
+
+.btn-blue:hover{
+  color: white;
+  background: black;
+}
+
+#introduction p {
+  margin-bottom: 50px;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0px;
+}
+
+.list-inline li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: gray;
+  transition: 0.5s
+}
+
+.list-inline i:hover {. /*note that for icons color is the icon color and */
+  color: black;
+  transition: 0.5s;
+}
+
+
+
+
+
+
+/*responsive*/
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}@media (max-width: 860px) {
+  .container {
+    width: 600px;
+  }
+}@media (max-width: 760px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 660px) {
+  .container {
+    width: 400px;
+  }
+}
+@media (max-width: 560px) {
+  .container {
+    width: 300px;
+  }
+}@media (max-width: 460px) {
+  .container {
+    width: 200px;
+  }
+}}@media (max-width: 360px) {
+  .container {
+    width: 100px;
+  }
+}
+
+
+
